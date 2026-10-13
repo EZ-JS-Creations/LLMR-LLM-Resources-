@@ -1,0 +1,35 @@
+#llmr-app{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e8edf6;background:#0b1020;min-height:100vh;padding:28px;box-sizing:border-box}
+#llmr-app *{box-sizing:border-box}
+#llmr-app .shell{max-width:1120px;margin:0 auto}
+#llmr-app .top{display:flex;gap:20px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:24px}
+#llmr-app h1{font-size:clamp(28px,4vw,42px);letter-spacing:-1.4px;margin:0 0 8px}
+#llmr-app p{color:#aab6cc;line-height:1.55;margin:0}
+#llmr-app .tag{display:inline-flex;border:1px solid #33415f;border-radius:999px;padding:7px 11px;color:#a9c7ff;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+#llmr-app .layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:18px}
+#llmr-app .panel{background:#121a2d;border:1px solid #26334e;border-radius:16px;padding:18px;min-width:0}
+#llmr-app h2{font-size:16px;margin:0 0 14px}
+#llmr-app .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+#llmr-app button,#llmr-app input,#llmr-app select{font:inherit}
+#llmr-app button{background:#d8e5ff;color:#101a30;border:0;border-radius:9px;padding:10px 13px;font-weight:650;cursor:pointer}
+#llmr-app button.secondary{background:#202c45;color:#dfe8f8;border:1px solid #344361}
+#llmr-app button:disabled{opacity:.45;cursor:not-allowed}
+#llmr-app .source-list{display:grid;gap:8px;max-height:450px;overflow:auto;padding-right:4px}
+#llmr-app .source{display:flex;gap:10px;align-items:flex-start;padding:11px;background:#0e1628;border:1px solid #273550;border-radius:10px}
+#llmr-app .source input{margin-top:4px;accent-color:#9bbcff}
+#llmr-app .source strong{display:block;font-size:14px;margin-bottom:4px}
+#llmr-app .source small{display:block;color:#98a8c2;line-height:1.4}
+#llmr-app .status{margin-top:12px;color:#b7c7e0;font-size:13px;white-space:pre-wrap}
+#llmr-app .meter{height:7px;background:#202b42;border-radius:20px;overflow:hidden;margin-top:10px}
+#llmr-app .meter span{display:block;height:100%;width:0;background:#a8c5ff;transition:width .2s}
+#llmr-app textarea,#llmr-app input[type=url],#llmr-app input[type=text],#llmr-app select{width:100%;background:#0b1222;color:#e7eefb;border:1px solid #344361;border-radius:9px;padding:10px;outline:none}
+#llmr-app textarea{min-height:240px;resize:vertical;font:12px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;margin-top:10px}
+#llmr-app label.field{display:block;color:#b8c7df;font-size:12px;margin:12px 0 6px}
+#llmr-app .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+#llmr-app .stat{background:#0e1628;border:1px solid #273550;border-radius:10px;padding:12px}
+#llmr-app .stat b{display:block;font-size:20px;color:#eef4ff}
+#llmr-app .stat span{font-size:11px;color:#95a6c1}
+#llmr-app .foot{margin-top:18px;font-size:12px;color:#7f91af}
+#llmr-app .notice{border-left:3px solid #8eacd9;padding:10px 12px;background:#101a2d;color:#aebdd5;border-radius:0 8px 8px 0;font-size:12px;line-height:1.5;margin:12px 0}
+#llmr-app .urlrow{display:flex;gap:8px}
+#llmr-app .urlrow input{flex:1;min-width:0}
+@media(max-width:760px){#llmr-app{padding:16px}#llmr-app .layout{grid-template-columns:1fr}#llmr-app .stats{grid-template-columns:repeat(3,1fr)}}

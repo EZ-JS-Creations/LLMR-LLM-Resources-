@@ -1,0 +1,11 @@
+{
+  "name": "llm-resources",
+  "version": "1.0.0",
+  "description": "A browser-based public-domain text collector for building small-model training corpora.",
+  "license": "MIT",
+  "main": "dist/llm-resources.js",
+  "browser": "dist/llm-resources.js",
+  "jsdelivr": "dist/llm-resources.js",
+  "files": ["dist/llm-resources.js", "dist/llm-resources.css", "index.html", "README.md"],
+  "keywords": ["llm", "corpus", "public-domain", "training-data", "shakespeare"]
+}
